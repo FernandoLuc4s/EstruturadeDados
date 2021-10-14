@@ -1,0 +1,1 @@
+Olá, este repositório foi criado para guardar os projetos que são feitos na matéria de estrutura de dados, nesta matéria nós aprendemos como funciona cada estrutura de dados que o computador usa em um programa.
