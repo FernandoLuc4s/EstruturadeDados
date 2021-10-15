@@ -20,9 +20,6 @@ public class Exerc {
 		while (!fila.vazia()) {
 			nome = fila.retirar();
 			System.out.println(nome +" ");
-			
-		}
-		
+		}	
 	}
-
 }
