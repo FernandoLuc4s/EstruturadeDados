@@ -1,0 +1,1 @@
+Olá este programa está em desenvolvimento e tem como objetivo gerar códigos de barras de produtos
