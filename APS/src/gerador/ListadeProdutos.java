@@ -1,15 +1,16 @@
 package gerador;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ListadeProdutos {
     
-    public int codBarras;
-    public String Produto;
+    public String codBarras;
+    public String nomeProduto;
     
-    public ListadeProdutos(int codBarras){
+    public ListadeProdutos(String codBarras, String nomeProduto){
         this.codBarras = codBarras;
-        //this.Produto = Produto;
+        this.nomeProduto = nomeProduto;
     }
+    public String getCodBarras(){
+        return codBarras;
+    }
+   
 }
