@@ -12,7 +12,7 @@ public class ExercTresFilaCollection {
 		// TODO Auto-generated method stub
 		Queue<Integer> fila = new LinkedList<>();
 		Random rnd = new Random();
-		int aux;
+		int aux=0;
 		
 		int opcao=0;
 		do {
@@ -22,7 +22,9 @@ public class ExercTresFilaCollection {
 				fila.add(aux);
 				JOptionPane.showMessageDialog(null, aux);
 			}else if(opcao==2) {
-				
+				JOptionPane.showMessageDialog(null, "Senha atual: "+aux);
+				JOptionPane.showMessageDialog(null, "Próximo da fila: "+(aux = rnd.nextInt(100)+900));
+				fila.add(aux);
 			}
 			else if(opcao==3) {
 				
